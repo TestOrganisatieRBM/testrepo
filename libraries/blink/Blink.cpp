@@ -1,5 +1,4 @@
 #include "Blink.h"
-//qsfdsfdsqf
 
 Blink::Blink(int pinNum) {
     _pin = pinNum;
@@ -9,4 +8,5 @@ Blink::Blink(int pinNum) {
 void Blink::now(void) {
     digitalWrite(_pin, HIGH);
     delay(_timeBetweenOnOffmillis);
+    digitalWrite(_pin, LOW);
 }
