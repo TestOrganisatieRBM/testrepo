@@ -10,6 +10,6 @@ public:
 private:
     int _pin;
     int _timeBetweenOnOffmillis = 1000;
-}
+};
 
 #endif Blink_h
