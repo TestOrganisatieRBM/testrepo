@@ -3,11 +3,11 @@
 
 class Blink {
 
-private:
+public:
     Blink(int pinNum);
     void now(void);
 
-public:
+private:
     int _pin;
     int _timeBetweenOnOffmillis = 1000;
 }
